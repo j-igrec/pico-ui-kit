@@ -1,26 +1,27 @@
 import pygame
 
-WIDTH  = 240
-HEIGHT = 135
-SCALE  = 3
+_DEFAULT_SCALE = 3
 
 
 class Display:
     """
-    Desktop simulator for the ST7789 240×135 LCD.
+    Desktop simulator for any pixel display.
 
-    Presents the same drawing API as the real hardware driver so components
-    run unchanged. Colors are (r, g, b) tuples — matching the token format.
+    Presents the same drawing API as a DisplayAdapter so components run
+    unchanged on desktop and on device. Colors are (r, g, b) tuples.
 
-    Draw calls write to an internal 240×135 surface. Call show() to push the
-    frame to the Pygame window (mirrors the real driver's flush-on-show model).
+    Draw calls write to an internal surface at the given resolution.
+    Call show() to push the frame to the Pygame window.
     """
 
-    def __init__(self):
+    def __init__(self, width=240, height=135, scale=_DEFAULT_SCALE):
+        self.width  = width
+        self.height = height
+        self._scale = scale
         pygame.init()
-        self._surface = pygame.Surface((WIDTH, HEIGHT))
-        self._window  = pygame.display.set_mode((WIDTH * SCALE, HEIGHT * SCALE))
-        pygame.display.set_caption(f"pico-ui-kit  [{WIDTH}×{HEIGHT}]")
+        self._surface = pygame.Surface((width, height))
+        self._window  = pygame.display.set_mode((width * scale, height * scale))
+        pygame.display.set_caption(f"pico-ui-kit  [{width}×{height}]")
         self._surface.fill((0, 0, 0))
 
     # -------------------------------------------------------------------------
@@ -64,7 +65,10 @@ class Display:
             cx += w
 
     def show(self):
-        """Flush the internal surface to the Pygame window at 3× scale."""
-        scaled = pygame.transform.scale(self._surface, (WIDTH * SCALE, HEIGHT * SCALE))
+        """Flush the internal surface to the Pygame window at scale."""
+        scaled = pygame.transform.scale(
+            self._surface,
+            (self.width * self._scale, self.height * self._scale),
+        )
         self._window.blit(scaled, (0, 0))
         pygame.display.flip()

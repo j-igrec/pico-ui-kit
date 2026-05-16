@@ -12,6 +12,16 @@ __pycache__/
 .claude/
 CLAUDE.md
 
+# Runtime colour mode selection — per-device, not part of the library
+mode.cfg
+
+# Token source JSON — design tooling inputs, not needed by consumers
+tokens/src/$metadata.json
+tokens/src/$themes.json
+tokens/src/01-primitive/
+tokens/src/02-Semantic/
+tokens/src/03-viewports/
+
 # Environment & secrets
 .env
 .env.*
