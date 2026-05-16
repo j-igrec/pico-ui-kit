@@ -27,7 +27,7 @@ read -r
 
 # Commit, tag, push
 git add __init__.py CHANGELOG.md
-git commit -m "chore: release v${VERSION}"
+git diff --cached --quiet || git commit -m "chore: release v${VERSION}"
 git tag "v${VERSION}"
 git push origin main
 git push origin "v${VERSION}"
