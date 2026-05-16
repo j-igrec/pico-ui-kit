@@ -1,0 +1,6186 @@
+{
+  "Action": {
+    "Primary": {
+      "Background": {
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Background.003}"
+        },
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Background.001}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Background.005}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Background.002}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Background.004}"
+        }
+      },
+      "Foreground": {
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Foreground.003}"
+        },
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Foreground.001}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Foreground.005}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Foreground.002}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Foreground.004}"
+        }
+      },
+      "Border": {
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Border.003}"
+        },
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Border.001}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Border.005}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Border.002}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Primary.Border.004}"
+        },
+        "Width": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Action.Primary.100}"
+        },
+        "Radius": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Radius.Brand.Action.Primary.100}"
+        }
+      }
+    },
+    "Secondary": {
+      "Background": {
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Background.003}"
+        },
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Background.001}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Background.005}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Background.002}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Background.004}"
+        }
+      },
+      "Foreground": {
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Foreground.003}"
+        },
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Foreground.001}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Foreground.005}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Foreground.002}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Foreground.004}"
+        }
+      },
+      "Border": {
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Border.003}"
+        },
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Border.001}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Border.005}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Border.002}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Secondary.Border.004}"
+        },
+        "Width": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Action.Secondary.100}"
+        },
+        "Radius": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Radius.Brand.Action.Secondary.100}"
+        }
+      }
+    },
+    "Ghost": {
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Background.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Background.003}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Background.002}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Background.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Background.004}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Foreground.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Foreground.003}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Foreground.002}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Foreground.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Foreground.004}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Border.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Border.003}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Border.002}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Border.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Ghost.Border.003 2}"
+        },
+        "Width": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Action.Ghost.100}"
+        },
+        "Radius": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Radius.Brand.Action.Ghost.100}"
+        }
+      }
+    },
+    "Danger": {
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Background.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Background.003}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Background.002}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Background.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Background.004}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Foreground.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Foreground.003}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Foreground.002}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Foreground.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Foreground.004}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Border.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Border.003}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Border.002}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Border.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Danger.Border.004}"
+        },
+        "Width": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Action.Danger.100}"
+        },
+        "Radius": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Radius.Brand.Action.Danger.100}"
+        }
+      }
+    },
+    "Link": {
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Foreground.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Foreground.002}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Foreground.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Foreground.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Foreground.004}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Border.001}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Border.002}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Border.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Border.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Border.004}"
+        },
+        "Width": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Action.Link.100}"
+        },
+        "Radius": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Radius.Brand.Action.Link.100}"
+        }
+      },
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Background.001}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Background.002}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Background.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Background.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Link.Background.004}"
+        }
+      }
+    },
+    "Inline": {
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Background.001}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Background.002}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Background.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Background.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Background.004}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Foreground.001}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Foreground.002}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Foreground.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Foreground.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Foreground.004}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Border.001}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Border.002}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Border.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Border.005}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Action.Inline.Border.004}"
+        },
+        "Radius": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Radius.Brand.Action.Inline.100}"
+        },
+        "Width": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Action.Inline.100}"
+        }
+      }
+    }
+  },
+  "Communication": {
+    "Markers": {
+      "Semantic": {
+        "Default": {
+          "Background": {
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.green.600}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.amber.600}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.red.600}"
+            },
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.500}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.blue.600}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.orange.600}"
+            }
+          },
+          "Foreground": {
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            }
+          },
+          "Border": {
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        },
+        "Ghost": {
+          "Background": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          },
+          "Foreground": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.800}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.blue.800}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.green.800}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.amber.800}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.red.800}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.orange.800}"
+            }
+          },
+          "Border": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        },
+        "Subtle": {
+          "Background": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.050}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.blue.100}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.green.100}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.amber.100}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.red.100}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.orange.100}"
+            }
+          },
+          "Foreground": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.800}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.blue.800}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.green.800}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.amber.800}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.red.800}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.orange.800}"
+            }
+          },
+          "Border": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        }
+      },
+      "Accent": {
+        "Default": {
+          "Border": {
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          },
+          "Foreground": {
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            }
+          },
+          "Background": {
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.purple.600}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.pink.600}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.fuchsia.600}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.indigo.600}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.sky.600}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.teal.600}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.emerald.600}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.lime.600}"
+            },
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.rose.600}"
+            }
+          }
+        },
+        "Subtle": {
+          "Background": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.rose.100}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.pink.100}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.fuchsia.100}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.purple.100}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.indigo.100}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.sky.100}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.teal.100}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.emerald.100}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.lime.100}"
+            }
+          },
+          "Foreground": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.rose.800}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.pink.800}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.fuchsia.800}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.purple.800}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.indigo.800}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.sky.800}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.teal.800}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.emerald.800}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.lime.800}"
+            }
+          },
+          "Border": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        },
+        "Ghost": {
+          "Background": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          },
+          "Foreground": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.rose.800}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.pink.800}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.fuchsia.800}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.purple.800}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.indigo.800}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.sky.800}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.teal.800}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.emerald.800}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.lime.800}"
+            }
+          },
+          "Border": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        },
+        "Secondary": {
+          "Background": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.rose.600}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.pink.600}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.fuchsia.600}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.purple.600}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.indigo.600}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.sky.600}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.teal.600}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.emerald.600}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.lime.600}"
+            }
+          },
+          "Foreground": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            }
+          },
+          "Border": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        }
+      },
+      "Neutral": {
+        "Default": {
+          "Background": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.050}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.100}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.200}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.300}"
+            }
+          },
+          "Foreground": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.950}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.950}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.950}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.950}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.950}"
+            }
+          },
+          "Border": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        }
+      }
+    },
+    "Highlights": {
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Accent.Primary.100}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "White": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        },
+        "Subtle": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Accent.Secondary.100}"
+        }
+      },
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Accent.Primary.100}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.100}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.600}"
+        }
+      }
+    },
+    "Messages": {
+      "Semantic": {
+        "Foreground": {
+          "Neutral": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Neutral.700}"
+          },
+          "Information": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.blue.700}"
+          },
+          "Warning": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.amber.700}"
+          },
+          "Success": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.green.700}"
+          },
+          "Error": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.red.700}"
+          },
+          "Attention": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.orange.700}"
+          }
+        },
+        "Border": {
+          "Neutral": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Neutral.900}"
+          },
+          "Information": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.blue.900}"
+          },
+          "Warning": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.amber.900}"
+          },
+          "Success": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.green.900}"
+          },
+          "Error": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.red.900}"
+          },
+          "Attention": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.orange.900}"
+          }
+        },
+        "Background": {
+          "Neutral": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Neutral.300}"
+          },
+          "Information": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.blue.050}"
+          },
+          "Warning": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.amber.050}"
+          },
+          "Success": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.green.050}"
+          },
+          "Error": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.red.050}"
+          },
+          "Attention": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Feedback.orange.050}"
+          }
+        }
+      }
+    },
+    "Focus": {
+      "Semantic": {
+        "Default": {
+          "Background": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.400}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.blue.400}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.green.400}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.amber.400}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.red.400}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.orange.400}"
+            }
+          },
+          "Border": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        },
+        "Subtle": {
+          "Border": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Neutral.400}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.blue.400}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.green.400}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.amber.400}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.orange.400}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.red.400}"
+            }
+          },
+          "Background": {
+            "Neutral": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Information": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Success": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Warning": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Attention": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "Error": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        }
+      },
+      "Accent": {
+        "Default": {
+          "Background": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.rose.400}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.pink.400}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.fuchsia.400}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.purple.400}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.indigo.400}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.sky.400}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.teal.400}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.emerald.400}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.lime.400}"
+            }
+          },
+          "Border": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          }
+        },
+        "Subtle": {
+          "Background": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Transparent.Light.000}"
+            }
+          },
+          "Border": {
+            "001": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.rose.400}"
+            },
+            "002": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.pink.400}"
+            },
+            "003": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.fuchsia.400}"
+            },
+            "004": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.purple.400}"
+            },
+            "005": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.indigo.400}"
+            },
+            "006": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.sky.400}"
+            },
+            "007": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.teal.400}"
+            },
+            "008": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.emerald.400}"
+            },
+            "009": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "STROKE_COLOR"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "{Colour.Feedback.lime.400}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Shadows": {
+    "Hard": {
+      "Shadow Color": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "EFFECT_COLOR"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Transparent.Dark.030}"
+      },
+      "Shadow Blur": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 60
+      },
+      "X": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      },
+      "Y": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      },
+      "Shadow Spread": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "Soft": {
+      "Shadow Color": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "EFFECT_COLOR"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Transparent.Dark.010}"
+      },
+      "Shadow Blur": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 10
+      },
+      "X": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      },
+      "Y": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 2
+      },
+      "Shadow Spread": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      }
+    }
+  },
+  "Control": {
+    "Selection": {
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        },
+        "Error": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        }
+      },
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "Error": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.200}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.200}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.200}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.200}"
+        },
+        "Error": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.red.700}"
+        }
+      }
+    },
+    "Input": {
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.025}"
+        },
+        "Active": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "Filled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.025}"
+        },
+        "Error": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.025}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        },
+        "Active": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        },
+        "Filled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        },
+        "Error": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.700}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Active": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Filled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Error": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.red.700}"
+        }
+      }
+    },
+    "Toggle": {
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.100}"
+        },
+        "Active": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Accent.Primary.100}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        },
+        "Active": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Active": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        }
+      }
+    }
+  },
+  "Selects": {
+    "Neutral": {
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        }
+      }
+    },
+    "Selected": {
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.050}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.000}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Accent.Primary.100}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Accent.Primary.100}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Accent.Primary.100}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Accent.Primary.100}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Transparent.Light.000}"
+        }
+      }
+    }
+  },
+  "Text": {
+    "Colour": {
+      "Primary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.950}"
+      },
+      "Quaternary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.000}"
+      },
+      "Tertiary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.500}"
+      },
+      "Secondary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.700}"
+      }
+    },
+    "Weight": {
+      "Regular": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "{Typography.Font weight.Regular}"
+      },
+      "Bold": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "{Typography.Font weight.Bold}"
+      }
+    },
+    "Font": {
+      "Primary": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "{Typography.Font family.Primary}"
+      }
+    }
+  },
+  "Structure": {
+    "Surfaces": {
+      "level-0": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.000}"
+      },
+      "level-3": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.100}"
+      },
+      "level-4": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.200}"
+      },
+      "level-5": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.300}"
+      },
+      "level-2": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.050}"
+      },
+      "level-1": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.025}"
+      }
+    },
+    "Borders": {
+      "level-0": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.000}"
+      },
+      "level-2": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.050}"
+      },
+      "level-3": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.100}"
+      },
+      "level-4": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.200}"
+      },
+      "level-5": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.300}"
+      },
+      "level-1": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.025}"
+      }
+    }
+  },
+  "Transitions": {
+    "level-1": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.000}"
+      },
+      "000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Transparent.Light.000}"
+      }
+    },
+    "level-2": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.000}"
+      },
+      "000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Transparent.Light.000}"
+      }
+    },
+    "loading": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.700}"
+      },
+      "000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Neutral.200}"
+      }
+    }
+  },
+  "Data": {
+    "Hard": {
+      "Border": {
+        "007": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.emerald.500}"
+        },
+        "006": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.teal.500}"
+        },
+        "005": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.sky.500}"
+        },
+        "004": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.indigo.500}"
+        },
+        "003": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.fuchsia.500}"
+        },
+        "002": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.pink.500}"
+        },
+        "Neutral": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.800}"
+        },
+        "001": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.rose.500}"
+        }
+      },
+      "Background": {
+        "007": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.emerald.300}"
+        },
+        "006": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.teal.300}"
+        },
+        "002": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.pink.300}"
+        },
+        "003": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.fuchsia.300}"
+        },
+        "004": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.indigo.300}"
+        },
+        "005": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.sky.300}"
+        },
+        "Neutral": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.500}"
+        },
+        "001": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.rose.300}"
+        }
+      },
+      "Foreground": {
+        "002": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "003": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "004": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "005": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "006": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "007": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "Neutral": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        },
+        "001": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.950}"
+        }
+      }
+    },
+    "Soft": {
+      "Background": {
+        "001": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.rose.100}"
+        },
+        "002": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.pink.100}"
+        },
+        "003": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.fuchsia.100}"
+        },
+        "004": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.indigo.100}"
+        },
+        "005": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.sky.100}"
+        },
+        "006": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.teal.100}"
+        },
+        "007": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.emerald.100}"
+        },
+        "Neutral": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.100}"
+        }
+      },
+      "Foreground": {
+        "001": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        },
+        "002": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        },
+        "003": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        },
+        "004": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        },
+        "005": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        },
+        "006": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        },
+        "007": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        },
+        "Neutral": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        }
+      },
+      "Border": {
+        "001": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.rose.300}"
+        },
+        "002": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.pink.300}"
+        },
+        "003": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.fuchsia.300}"
+        },
+        "004": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.indigo.300}"
+        },
+        "005": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.sky.300}"
+        },
+        "006": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.teal.300}"
+        },
+        "007": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Feedback.emerald.300}"
+        },
+        "Neutral": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Neutral.300}"
+        }
+      }
+    }
+  },
+  "Ai": {
+    "Background": {
+      "blur-2": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Feedback.teal.500}"
+      },
+      "blur-3": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Feedback.cyan.500}"
+      },
+      "blur-4": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Feedback.sky.500}"
+      },
+      "blur-5": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Feedback.blue.600}"
+      },
+      "blur-6": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Feedback.indigo.500}"
+      },
+      "blur-1": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Feedback.teal.100}"
+      }
+    }
+  },
+  "Navigation": {
+    "Items": {
+      "Background": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Background.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Background.002}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Background.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Background.004}"
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Foreground.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Foreground.002}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Foreground.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Foreground.004}"
+        }
+      },
+      "Border": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Border.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Border.002}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Border.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Border.004}"
+        },
+        "Base-width-R": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.001.R}"
+        },
+        "Base-width-L": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.001.L}"
+        },
+        "Base-width-T": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.001.T}"
+        },
+        "Base-width-B": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.001.B}"
+        },
+        "Hover-width-B": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.002.B}"
+        },
+        "Hover-width-L": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.002.L}"
+        },
+        "Hover-width-T": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.002.T}"
+        },
+        "Hover-width-R": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.002.R}"
+        },
+        "Focus-width-B": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.003.B}"
+        },
+        "Focus-width-L": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.003.L}"
+        },
+        "Focus-width-T": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.003.T}"
+        },
+        "Focus-width-R": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.003.R}"
+        },
+        "Disabled-width-B": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.004.B}"
+        },
+        "Disabled-width-L": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.004.L}"
+        },
+        "Disabled-width-T": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.004.T}"
+        },
+        "Disabled-width-R": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Stroke.Brand.Navigation.004.R}"
+        },
+        "Radius": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{Radius.Brand.Navigation.Items.100}"
+        }
+      },
+      "Accent": {
+        "Highlight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Items.Accent.001}"
+        }
+      }
+    },
+    "Container": {
+      "Background": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Brand.Navigation.Container.Background.100}"
+      },
+      "Border": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{Colour.Brand.Navigation.Container.Border.100}"
+      }
+    },
+    "Fade": {
+      "Background": {
+        "Base": {
+          "0": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Brand.Navigation.Fade.Background.001.0}"
+          },
+          "1": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Brand.Navigation.Fade.Background.001.1}"
+          }
+        },
+        "Hover": {
+          "0": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Brand.Navigation.Fade.Background.002.0}"
+          },
+          "1": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Brand.Navigation.Fade.Background.002.1}"
+          }
+        },
+        "Focus": {
+          "0": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Brand.Navigation.Fade.Background.003.0}"
+          },
+          "1": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Brand.Navigation.Fade.Background.003.1}"
+          }
+        },
+        "Disabled": {
+          "0": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Brand.Navigation.Fade.Background.004.0}"
+          },
+          "1": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "{Colour.Brand.Navigation.Fade.Background.004.1}"
+          }
+        }
+      },
+      "Foreground": {
+        "Base": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Fade.Foreground.001}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Fade.Foreground.002}"
+        },
+        "Focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Fade.Foreground.003}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Colour.Brand.Navigation.Fade.Foreground.004}"
+        }
+      }
+    }
+  },
+  "Tools": {
+    "Annotations": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{Colour.Brand.Accent.Primary.100}"
+    }
+  },
+  "Theme": {
+    "theme": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "text",
+      "$value": "Light"
+    }
+  }
+}
