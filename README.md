@@ -326,12 +326,16 @@ The `width` and `height` you pass to `DisplayAdapter` should match the viewport 
 
 pico-ui-kit is a plain Python library — there is no package manager step. The components, fonts, token modules, and `adapter.py` are source files you deploy alongside your own code.
 
-### Option A — Git submodule (recommended)
+### Option A — Git submodule pinned to a release tag (recommended)
 
-Add pico-ui-kit as a submodule inside your project repo:
+Add pico-ui-kit as a submodule inside your project repo, then pin it to a specific release. This is the pattern used by [pico-spellspinner](#projects-using-pico-ui-kit) — every clone of your project gets the same version.
 
 ```bash
 git submodule add https://github.com/YOUR_USERNAME/pico-ui-kit
+git -C pico-ui-kit fetch --tags
+git -C pico-ui-kit checkout v0.0.1   # pin to a specific release
+git add pico-ui-kit
+git commit -m "chore: pin pico-ui-kit to v0.0.1"
 ```
 
 Then in your screen files, adjust `sys.path` so imports resolve:
@@ -342,10 +346,13 @@ sys.path.insert(0, "/path/to/pico-ui-kit")   # desktop
 # On Pico hardware: copy the pico-ui-kit folder to the device root
 ```
 
-Update to the latest version at any time:
+Bump to a newer release when you're ready:
 
 ```bash
-git submodule update --remote pico-ui-kit
+git -C pico-ui-kit fetch --tags
+git -C pico-ui-kit checkout v0.0.2
+git add pico-ui-kit
+git commit -m "chore: bump pico-ui-kit to v0.0.2"
 ```
 
 ### Option B — MicroPython Package Manager (mip)
