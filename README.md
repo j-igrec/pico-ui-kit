@@ -34,7 +34,7 @@ $FTP tokens/src/fonts/IBMPlexMono-Regular.ttf  16 fonts/monor16.py
 $FTP tokens/src/fonts/IBMPlexMono-Bold.ttf     16 fonts/monob16.py
 ```
 
-Generated font files in `fonts/` are committed to the repo and deployed to the Pico. The TTF source files in `tokens/src/fonts/` are not committed (add to `.gitignore`).
+Generated font files in `fonts/` are committed to the repo and deployed to the Pico. The TTF source files in `tokens/src/fonts/` are committed under the [OFL licence](tokens/src/fonts/OFL.txt) — font regeneration is only needed if you add a new font or size.
 
 ---
 
@@ -78,7 +78,7 @@ No component is written until a screen requires it.
 ```
 Figma variables
     ↓  export JSON to tokens/src/
-    ↓  python tokens/build_tokens.py [--viewport xs]
+    ↓  python tokens/build_tokens.py [--mode N] [--theme light|dark] [--viewport xs]
 
 primitive.py    raw values — colors as (r,g,b), numbers as int px
     ↓  from tokens.primitive import *
@@ -94,7 +94,41 @@ drawing/ + components/    always import from semantic or viewport, never primiti
 
 Figma is the single source of truth. Never edit `primitive.py`, `semantic.py`, or `viewport.py` by hand.
 
-### Viewports
+### Build options
+
+Three independent flags control what gets generated. Combine any of them freely:
+
+```bash
+python tokens/build_tokens.py                                    # mode 1, light, xs  (all defaults)
+python tokens/build_tokens.py --mode 2                           # switch colour palette
+python tokens/build_tokens.py --theme dark                       # light or dark
+python tokens/build_tokens.py --viewport sm                      # change display size
+python tokens/build_tokens.py --mode 2 --theme dark --viewport sm  # all three
+```
+
+#### Mode (colour palette)
+
+A **mode** selects which primitive colour palette to build from — it is the closest equivalent to a "brand" in a web design system. Each mode corresponds to one file in `tokens/src/01-primitive/`.
+
+| Mode | File | Notes |
+|---|---|---|
+| `1` | `Mode 1.json` | Default |
+| `2` | `Mode 2.json` | Add to `01-primitive/` to unlock |
+| `N` | `Mode N.json` | As many as you need |
+
+Adding a new mode: export a new `Mode N.json` from Figma Variables and place it in `tokens/src/01-primitive/`. No changes to `02-Semantic/` are needed — the semantic layer resolves references against whichever mode is active.
+
+> **Mode vs theme:** These are two different things. **Mode** = which colour palette (e.g. dark-fantasy vs sci-fi vs nature). **Theme** = light or dark surface treatment applied on top of any mode.
+
+#### Theme (light / dark)
+
+```bash
+python tokens/build_tokens.py --theme dark   # regenerate semantic.py for dark surfaces
+```
+
+`02-Semantic/Light.json` and `Dark.json` are shared across all modes — they define colour roles (e.g. `ACTION_PRIMARY_BACKGROUND_BASE`) that point to whatever primitives the active mode provides.
+
+#### Viewport
 
 | Viewport | Usage |
 |---|---|
@@ -105,11 +139,10 @@ Figma is the single source of truth. Never edit `primitive.py`, `semantic.py`, o
 | `xl` | Extra large display |
 
 ```bash
-python tokens/build_tokens.py               # xs (default)
-python tokens/build_tokens.py --viewport sm # switch to sm
+python tokens/build_tokens.py --viewport sm  # regenerate viewport.py for a larger display
 ```
 
-Switching viewport regenerates `viewport.py` with the correct spacing, type scale, and radii. Colors and semantic tokens are viewport-independent and never change.
+Switching viewport regenerates `viewport.py` with the correct spacing, type scale, and radii. Colours and semantic tokens are viewport-independent.
 
 ### Token names in components
 
@@ -147,7 +180,7 @@ Desktop:      run.py   → Display(simulator)   → Pygame window
 pip install pygame
 
 # 2. Run the built-in spell card demo
-cd /Users/jaysonigrec/vault/pico-ui-kit
+cd path/to/pico-ui-kit
 python3 simulator/run.py
 
 # 3. Run a specific screen file
@@ -173,8 +206,74 @@ The simulator requires `pygame` on the desktop only. It is never deployed to the
 
 ---
 
-## Consumer projects
+## Using this library
+
+pico-ui-kit is a plain Python library — there is no package manager step. The components, fonts, and token modules are source files you deploy alongside your own code.
+
+### Option A — Git submodule (recommended)
+
+Add pico-ui-kit as a submodule inside your project repo:
+
+```bash
+git submodule add https://github.com/YOUR_USERNAME/pico-ui-kit
+```
+
+Then in your screen files, adjust `sys.path` so imports resolve:
+
+```python
+import sys
+sys.path.insert(0, "/path/to/pico-ui-kit")   # desktop
+# On Pico hardware: copy the pico-ui-kit folder to the device root
+```
+
+Update to the latest version at any time:
+
+```bash
+git submodule update --remote pico-ui-kit
+```
+
+### Option B — MicroPython Package Manager (mip)
+
+From the Pico REPL or in a boot script, install directly from GitHub:
+
+```python
+import mip
+mip.install("github:YOUR_USERNAME/pico-ui-kit")
+```
+
+This copies only the deployed files (drawing, components, fonts, tokens) — not the simulator or build scripts. Re-run to update.
+
+### Option C — Manual copy
+
+Download the repo and copy the following folders to your Pico (via Thonny, mpremote, or rshell):
+
+```
+drawing/
+components/
+fonts/
+tokens/primitive.py
+tokens/semantic.py
+tokens/viewport.py
+tokens/__init__.py
+```
+
+The `simulator/`, `tokens/src/`, and `tokens/build_tokens.py` are desktop-only and do not belong on the device.
+
+### Token customisation
+
+The committed `tokens/primitive.py`, `tokens/semantic.py`, and `tokens/viewport.py` reflect Mode 1 / Light / XS — suitable for a 240×135 Pico display out of the box.
+
+To customise (e.g. switch mode, use dark theme, target a larger display):
+
+1. Clone the repo locally
+2. Export your token JSON files from Figma into `tokens/src/`
+3. Run the build script with your chosen options (see [Build options](#build-options))
+4. Deploy the regenerated `.py` files to your Pico
+
+---
+
+## Projects using pico-ui-kit
 
 | Project | Repo |
 |---|---|
-| SpellSpinner | `vault/pico-spellspinner` |
+| SpellSpinner | [pico-spellspinner](https://github.com/YOUR_USERNAME/pico-spellspinner) |
