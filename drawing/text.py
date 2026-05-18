@@ -3,7 +3,15 @@ def write(display, font, text, x, y, fg, bg=None):
 
 
 def text_w(font, text):
-    return font.max_width() * len(text)
+    """Sum of actual glyph widths for `text` in `font` (variable-pitch aware)."""
+    total = 0
+    for ch in text:
+        try:
+            _, _, w = font.get_ch(ch)
+        except Exception:
+            w = font.max_width()
+        total += w
+    return total
 
 
 def text_h(font):

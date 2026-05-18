@@ -65,14 +65,15 @@ def _demo_draw(display):
 
     display.fill(STRUCTURE_SURFACES_LEVEL_0)
 
-    categories = ['neutral', 'success', 'warning', 'error', 'information']
-    emphases   = ['default', 'subtle', 'ghost']
+    colours  = ['neutral', 'success', 'warning', 'error', 'information']
+    emphases = ['default', 'subtle', 'ghost']
 
     y = 12
     for emphasis in emphases:
         x = 12
-        for cat in categories:
-            w = badge(display, reg8, cat[:4], x, y, category=cat, emphasis=emphasis)
+        for col in colours:
+            w = badge(display, reg8, col[:4], x, y,
+                      colour=col, emphasis=emphasis, type='semantic', icon=False)
             x += w + 4
         y += reg8.height() + 8 + 8
 

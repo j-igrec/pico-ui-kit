@@ -1,6 +1,6 @@
 import pygame
 
-_DEFAULT_SCALE = 3
+_DEFAULT_SCALE = 1
 
 
 class Display:
