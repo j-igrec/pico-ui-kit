@@ -4,6 +4,11 @@ icons/build_icons.py
 
 Converts PNG icons in icons/src/ into MicroPython 1-bit bitmap modules in icons/.
 
+NOTE: This script strips its own directory (icons/) from sys.path before importing
+Pillow. Some of our icon module names (copy, list, file, …) collide with stdlib
+modules that Pillow uses internally — keeping icons/ on the path causes Pillow to
+import the icon module instead of the stdlib one and crash.
+
 Each PNG is read pixel-by-pixel. Any pixel with alpha > 0 becomes a "1" bit.
 The 1-bit data is packed MSB-first, row-major, into a bytes literal — the same
 shape as fonts/ modules produced by font_to_py, so drawing/icon.py can iterate
@@ -20,6 +25,13 @@ Source PNGs should be:
 
 Re-run whenever you add or update icons. The generated *.py files are auto-generated.
 """
+
+import os
+import sys
+
+# Drop icons/ from sys.path so our icon modules don't shadow stdlib (copy, list, …).
+_THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path[:] = [p for p in sys.path if os.path.abspath(p) != _THIS_DIR]
 
 import argparse
 import re
