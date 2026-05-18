@@ -367,14 +367,17 @@ def badge(display, font, badge_label, x, y,
         fg     = _ACCENT_FG[emphasis][colour]
         border = _ACCENT_BORDER[emphasis][colour]
 
-    text_w = _text_w(font, badge_label)
+    fh = font.height()
     # Design system rule: every height is even. Round odd font bitmaps (e.g. Silkscreen 9px)
     # up to the next even line-height — matches Figma's Line-height/Body/Nx tokens exactly.
-    font_lh = font.height() + (font.height() % 2)
+    font_lh = fh + (fh % 2)
+    dot_sz = status_dot_size()
+    bg_transparent = _is_transparent(bg)
+
     content_h = max(
         font_lh,
         _ICON_SIZE if icon else 0,
-        status_dot_size() if status_dot else 0,
+        dot_sz if status_dot else 0,
     )
     h = content_h + PADDING_1 * 2
     # Figma calls for RADIUS_SM (4). Clamp to h // 2 so small badges still render
@@ -382,34 +385,35 @@ def badge(display, font, badge_label, x, y,
     r = min(RADIUS_SM, h // 2)
 
     # Width = left pad + [dot + gap] + [icon + gap] + text + right pad.
-    w = PADDING_2 * 2 + text_w
+    w = PADDING_2 * 2 + _text_w(font, badge_label)
     if status_dot:
-        w += status_dot_size() + GAP_1
+        w += dot_sz + GAP_1
     if icon:
         w += _ICON_SIZE + GAP_1
 
-    if not _is_transparent(bg):
+    if not bg_transparent:
         fill_rounded_rect(display, x, y, w, h, r, bg)
 
     cursor = x + PADDING_2
 
     if status_dot:
-        dot_y = y + (h - status_dot_size()) // 2
-        _draw_status_dot(display, cursor, dot_y, colour=colour, emphasis='default', type=type)
-        cursor += status_dot_size() + GAP_1
+        dot_y = y + (h - dot_sz) // 2
+        # Auto-derive the dot's family from colour so the badge's `type` arg can't
+        # produce a mismatched (type, colour) pair that crashes status_dot.
+        dot_type = 'semantic' if colour in _SEMANTIC_COLOURS else 'accent'
+        _draw_status_dot(display, cursor, dot_y, colour=colour, emphasis='default', type=dot_type)
+        cursor += dot_sz + GAP_1
 
     if icon:
         if icon is not True:
             # icon is a module — render it, centred in the 8x8 slot, in the badge fg.
-            icon_w = icon.width()
-            icon_h = icon.height()
-            icon_x = cursor + (_ICON_SIZE - icon_w) // 2
-            icon_y = y + (h - icon_h) // 2
+            icon_x = cursor + (_ICON_SIZE - icon.width()) // 2
+            icon_y = y + (h - icon.height()) // 2
             _draw_icon(display, icon, icon_x, icon_y, fg)
         cursor += _ICON_SIZE + GAP_1
 
-    text_y = y + (h - font.height()) // 2
-    display.write(font, badge_label, cursor, text_y, fg, None if _is_transparent(bg) else bg)
+    text_y = y + (h - fh) // 2
+    display.write(font, badge_label, cursor, text_y, fg, None if bg_transparent else bg)
 
     if not _is_transparent(border):
         rounded_rect(display, x, y, w, h, r, border)

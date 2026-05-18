@@ -43,7 +43,6 @@ from tokens.viewport import PADDING_2, GAP_2
 
 _ICON_SIZE = 8
 _FOCUS_RING_OFFSET = 3   # ring sits 3px outside the button on every side
-_FOCUS_RING_WIDTH = 2    # 2px thick stroke
 
 _BG = {
     ('primary',   'default'):  ACTION_PRIMARY_BACKGROUND_BASE,
@@ -132,11 +131,14 @@ def button(display, font, label, x, y,
     has_trail = trail_icon is not None and trail_icon is not False
 
     # ---- Geometry ----
+    fh = font.height()
     if icon_only:
         content_w = _ICON_SIZE
         content_h = _ICON_SIZE
+        text_width = 0
     else:
-        font_lh = font.height() + (font.height() % 2)  # round odd bitmap up to even line-height
+        # Round odd font bitmap up to even line-height — even-height rule for the grid.
+        font_lh = fh + (fh % 2)
         text_width = _text_w(font, label)
         content_w = text_width
         if has_lead:
@@ -175,9 +177,9 @@ def button(display, font, label, x, y,
                 _draw_icon(display, lead_icon, ix, iy, fg)
             cursor += _ICON_SIZE + GAP_2
 
-        text_y = cy + (content_h - font.height()) // 2
+        text_y = cy + (content_h - fh) // 2
         display.write(font, label, cursor, text_y, fg, None if _is_transparent(bg) else bg)
-        cursor += _text_w(font, label)
+        cursor += text_width
 
         if has_trail:
             cursor += GAP_2

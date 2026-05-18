@@ -54,16 +54,18 @@ def status_dot(display, x, y, colour='neutral', emphasis='default', type='accent
     """
     Draw a 4x4 status dot and return its width.
 
-    type:     'accent' | 'semantic'
+    type:     'accent' | 'semantic'. Auto-derived from `colour` — kept for Figma 1:1 parity.
     colour:   accent  -> '001'..'009' or 'focus'
               semantic -> 'neutral'|'success'|'warning'|'error'|'information'|'attention'
     emphasis: 'default' (only value Figma exposes — kept for prop-name parity).
     Returns the dot size in px so callers can advance x.
     """
-    if type == 'accent':
-        fg = _ACCENT_FILL[colour]
-    else:
+    # Derive the colour family from the colour value so mismatched type+colour
+    # combinations don't crash with a KeyError.
+    if colour in _SEMANTIC_FILL:
         fg = _SEMANTIC_FILL[colour]
+    else:
+        fg = _ACCENT_FILL[colour]
 
     if _is_transparent(fg):
         return _SIZE

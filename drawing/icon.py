@@ -11,19 +11,12 @@ def draw_icon(display, icon, x, y, fg, bg=None):
     h = icon.height()
     raw = icon.data()
     row_bytes = (w + 7) // 8
+    raw_len = len(raw)
     for row in range(h):
+        row_off = row * row_bytes
         for col in range(w):
-            b = row * row_bytes + col // 8
-            bit = 7 - (col % 8)
-            if b < len(raw) and raw[b] & (1 << bit):
+            b = row_off + (col >> 3)
+            if b < raw_len and raw[b] & (1 << (7 - (col & 7))):
                 display.pixel(x + col, y + row, fg)
             elif bg is not None:
                 display.pixel(x + col, y + row, bg)
-
-
-def icon_w(icon):
-    return icon.width()
-
-
-def icon_h(icon):
-    return icon.height()
