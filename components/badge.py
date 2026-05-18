@@ -1,4 +1,6 @@
 from drawing.rect import fill_rounded_rect, rounded_rect
+from drawing.text import text_w as _text_w
+from drawing.icon import draw_icon as _draw_icon
 
 from tokens.semantic import (
     COMMUNICATION_MARKERS_ACCENT_DEFAULT_BACKGROUND_001,
@@ -137,10 +139,9 @@ from tokens.semantic import (
     COMMUNICATION_MARKERS_SEMANTIC_GHOST_BORDER_INFORMATION,
     COMMUNICATION_MARKERS_SEMANTIC_GHOST_BORDER_ATTENTION,
 )
-from tokens.viewport import RADIUS_XS, PADDING_2
+from tokens.viewport import PADDING_1, PADDING_2, GAP_1, RADIUS_SM
+from components.status_dot import status_dot as _draw_status_dot, size as status_dot_size
 
-_PAD   = PADDING_2   # 4px internal padding each side
-_MIN_W = 20          # minimum badge width
 
 _ACCENT_BG = {
     'default': {
@@ -331,42 +332,90 @@ _SEMANTIC_BORDER = {
     },
 }
 
-_SEMANTIC_CATS = ('neutral', 'success', 'warning', 'error', 'information', 'attention')
+_SEMANTIC_COLOURS = ('neutral', 'success', 'warning', 'error', 'information', 'attention')
+
+_ICON_SIZE = 8  # Figma icon slot — reserved, drawn only when an icon module is supplied.
 
 
 def _is_transparent(c):
     return len(c) == 4 and c[3] == 0
 
 
-def badge(display, font, text, x, y, category='neutral', emphasis='ghost'):
+def badge(display, font, badge_label, x, y,
+          colour='001', emphasis='default', type='accent',
+          status_dot=True, icon=True):
     """
-    Draw a text badge and return its width.
+    Draw a pill-shaped badge and return its width.
 
-    category: accent number '001'..'009'  OR semantic 'neutral'/'success'/'warning'/'error'/'information'/'attention'
-    emphasis: 'default' | 'subtle' | 'ghost'
+    type:         'accent' | 'semantic'
+    colour:       accent   -> '001'..'009'
+                  semantic -> 'neutral'|'success'|'warning'|'error'|'information'|'attention'
+    emphasis:     'default' | 'subtle' | 'ghost'
+    status_dot:   True to draw an inline 4px focus-coloured dot before the label.
+    icon:         False — skip the icon slot entirely.
+                  True — reserve an empty 8x8 slot between the dot and the label.
+                  An icon module — reserve the slot AND draw the icon, tinted with the badge fg.
+
     Returns the badge width (px) so callers can advance x.
     """
-    if category in _SEMANTIC_CATS:
-        bg     = _SEMANTIC_BG[emphasis][category]
-        fg     = _SEMANTIC_FG[emphasis][category]
-        border = _SEMANTIC_BORDER[emphasis][category]
+    if colour in _SEMANTIC_COLOURS:
+        bg     = _SEMANTIC_BG[emphasis][colour]
+        fg     = _SEMANTIC_FG[emphasis][colour]
+        border = _SEMANTIC_BORDER[emphasis][colour]
     else:
-        bg     = _ACCENT_BG[emphasis][category]
-        fg     = _ACCENT_FG[emphasis][category]
-        border = _ACCENT_BORDER[emphasis][category]
+        bg     = _ACCENT_BG[emphasis][colour]
+        fg     = _ACCENT_FG[emphasis][colour]
+        border = _ACCENT_BORDER[emphasis][colour]
 
-    tw = font.max_width() * len(text)
-    w  = max(_MIN_W, tw + _PAD * 2)
-    h  = font.height() + _PAD * 2
+    fh = font.height()
+    # Design system rule: every height is even. Round odd font bitmaps (e.g. Silkscreen 9px)
+    # up to the next even line-height — matches Figma's Line-height/Body/Nx tokens exactly.
+    font_lh = fh + (fh % 2)
+    dot_sz = status_dot_size()
+    bg_transparent = _is_transparent(bg)
 
-    if not _is_transparent(bg):
-        fill_rounded_rect(display, x, y, w, h, RADIUS_XS, bg)
+    content_h = max(
+        font_lh,
+        _ICON_SIZE if icon else 0,
+        dot_sz if status_dot else 0,
+    )
+    h = content_h + PADDING_1 * 2
+    # Figma calls for RADIUS_SM (4). Clamp to h // 2 so small badges still render
+    # cleanly when the token exceeds the available radius space.
+    r = min(RADIUS_SM, h // 2)
 
-    tx = x + (w - tw) // 2
-    ty = y + _PAD
-    display.write(font, text, tx, ty, fg, None if _is_transparent(bg) else bg)
+    # Width = left pad + [dot + gap] + [icon + gap] + text + right pad.
+    w = PADDING_2 * 2 + _text_w(font, badge_label)
+    if status_dot:
+        w += dot_sz + GAP_1
+    if icon:
+        w += _ICON_SIZE + GAP_1
+
+    if not bg_transparent:
+        fill_rounded_rect(display, x, y, w, h, r, bg)
+
+    cursor = x + PADDING_2
+
+    if status_dot:
+        dot_y = y + (h - dot_sz) // 2
+        # Auto-derive the dot's family from colour so the badge's `type` arg can't
+        # produce a mismatched (type, colour) pair that crashes status_dot.
+        dot_type = 'semantic' if colour in _SEMANTIC_COLOURS else 'accent'
+        _draw_status_dot(display, cursor, dot_y, colour=colour, emphasis='default', type=dot_type)
+        cursor += dot_sz + GAP_1
+
+    if icon:
+        if icon is not True:
+            # icon is a module — render it, centred in the 8x8 slot, in the badge fg.
+            icon_x = cursor + (_ICON_SIZE - icon.width()) // 2
+            icon_y = y + (h - icon.height()) // 2
+            _draw_icon(display, icon, icon_x, icon_y, fg)
+        cursor += _ICON_SIZE + GAP_1
+
+    text_y = y + (h - fh) // 2
+    display.write(font, badge_label, cursor, text_y, fg, None if bg_transparent else bg)
 
     if not _is_transparent(border):
-        rounded_rect(display, x, y, w, h, RADIUS_XS, border)
+        rounded_rect(display, x, y, w, h, r, border)
 
     return w

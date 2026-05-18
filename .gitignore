@@ -22,6 +22,9 @@ tokens/src/01-primitive/
 tokens/src/02-Semantic/
 tokens/src/03-viewports/
 
+# Icon source PNGs — design tooling inputs, not needed by consumers
+icons/src/*.png
+
 # Environment & secrets
 .env
 .env.*
