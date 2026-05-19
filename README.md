@@ -1,10 +1,14 @@
 # pico-ui-kit
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MicroPython](https://img.shields.io/badge/MicroPython-1.20%2B-blue.svg)](https://micropython.org/)
+[![Feedback Welcome](https://img.shields.io/badge/Feedback-welcome-brightgreen.svg)](https://github.com/j-igrec/pico-ui-kit/issues/new)
+
 A simple UI kit for MicroPython. Build consistent, well-designed interfaces on any colour display — without reinventing colours, spacing, and typography for every project.
 
 The design decisions are already made and baked into the component library. Drop in your display driver, pick a viewport for your screen size, and start building on any MicroPython board.
 
-This started as a personal project and is open sourced for anyone who wants a solid UI foundation for their Pico builds. Contributions are welcome.
+This started as a personal project and is open sourced for anyone who wants a solid UI foundation for their Pico builds. Feedback, bug reports, and feature suggestions are welcome via [Issues](https://github.com/j-igrec/pico-ui-kit/issues).
 
 ---
 
@@ -20,11 +24,26 @@ This started as a personal project and is open sourced for anyone who wants a so
 
 ---
 
+## Components
+
+| Component | Preview | Description |
+|---|---|---|
+| **Badge** | _coming soon_ | Pill-shaped label with optional status dot and icon. Accent (`001`–`009`) and semantic (`neutral`, `success`, `warning`, `error`, `information`, `attention`) colour variants. |
+| **Button** | _coming soon_ | Primary and secondary styles with `default`, `focus`, `hover`, `pressed`, and `disabled` states. Supports leading/trailing icons or icon-only mode. |
+| **Status Dot** | _coming soon_ | Small 4×4 indicator dot. Accent or semantic colour for online/offline/warning-style states. |
+
+---
+
 ## Roadmap
 
+Planned for upcoming releases:
+
 - **More colour themes** — additional colour palettes beyond the default
-- **More components** — buttons, progress bars, lists, and icons
+- **More components** — progress bars, lists, inputs, modals
 - **Monochrome & e-paper support** — SSD1306 OLED and e-ink panels
+- **Touch input helpers** — hit-testing and gesture utilities for touch displays
+
+**Got an idea or a component you'd like to see?** [Open an issue](https://github.com/j-igrec/pico-ui-kit/issues/new) and tell me what you're building — feedback shapes what gets built next.
 
 ---
 
