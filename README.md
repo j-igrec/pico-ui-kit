@@ -352,9 +352,9 @@ Add pico-ui-kit as a submodule inside your project repo, then pin it to a specif
 ```bash
 git submodule add https://github.com/YOUR_USERNAME/pico-ui-kit
 git -C pico-ui-kit fetch --tags
-git -C pico-ui-kit checkout v0.0.1   # pin to a specific release
+git -C pico-ui-kit checkout vX.Y.Z   # pin to a specific release
 git add pico-ui-kit
-git commit -m "chore: pin pico-ui-kit to v0.0.1"
+git commit -m "chore: pin pico-ui-kit to vX.Y.Z"
 ```
 
 Then in your screen files, adjust `sys.path` so imports resolve:
@@ -369,9 +369,9 @@ Bump to a newer release when you're ready:
 
 ```bash
 git -C pico-ui-kit fetch --tags
-git -C pico-ui-kit checkout v0.0.2
+git -C pico-ui-kit checkout vX.Y.Z
 git add pico-ui-kit
-git commit -m "chore: bump pico-ui-kit to v0.0.2"
+git commit -m "chore: bump pico-ui-kit to vX.Y.Z"
 ```
 
 ### Option B — MicroPython Package Manager (mip)
